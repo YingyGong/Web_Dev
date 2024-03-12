@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-
+import  BaristaFrom from './Components/baristaForm';
 
 const App = () => {
   const [count, setCount] = useState(0);
