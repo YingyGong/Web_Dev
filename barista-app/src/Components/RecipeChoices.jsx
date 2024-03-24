@@ -1,6 +1,6 @@
 import React, {Component, useEffect, useState } from "react";
 
-const RecipeChoices = ({ handleChange, label, choices, checed}) => {
+const RecipeChoices = ({ handleChange, label, choices, checked}) => {
     return (
         <div className="radio-buttons">
         {choices &&
@@ -18,6 +18,7 @@ const RecipeChoices = ({ handleChange, label, choices, checed}) => {
             </li>
             ))}
         </div>
+
     );
 };
 
